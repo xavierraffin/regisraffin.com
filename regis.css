@@ -2,29 +2,6 @@
 font-family: itc;
 src: url("itc.otf") format("opentype");
 }
-figure { width:84%; margin:0 0 3%;}
-.vignette{
-    margin:0 3% 3% 0;
-    width:26%;
-	/*height:auto;*/
-}
-@media screen and (max-width: 840px) {
-.vignette{
-    width:40.5%;
-}
-}
-body {
-	font-family: itc;
-}
-header h1{
-	color:black;
-	position:absolute;
-	margin:0 0 0 30px;
-	text-shadow: 1px 1px 0px #00c8ff,-1px -1px 0px #c600e7;
-}
-header{
-	height:40px;
-}
 header p {
 	text-transform:uppercase;
 	color:#6e6e6e;
@@ -37,6 +14,51 @@ section{
 	margin-left:300px;
 	line-height: 0;
 }
+figure { width:84%; margin:0 0 3%;}
+nav a {
+	padding:0 10px 0 30px;
+	text-decoration:none;
+	color:black;
+}
+header h1{
+	color:black;
+	position:absolute;
+	margin:0 0 0 30px;
+	text-shadow: 1px 1px 0px #00c8ff,-1px -1px 0px #c600e7;
+}
+header{
+	height:40px;
+}
+.vignette{
+    margin:0 3% 3% 0;
+    width:26%;
+}
+@media screen and (max-width: 1280px) {
+header p , section{
+	margin-left:220px;
+}
+nav a {padding:0 8px 0 25px;}
+header h1 {margin:0 0 0 25px;}
+body {
+	font-size: 14px;
+}
+}
+@media screen and (max-width: 1024px) { /*two column layout */
+header p, section {
+	margin-left:200px;
+}
+nav a {padding:0 6px 0 21px;}
+header h1 {margin:0 0 0 21px;}
+body {
+	font-size: 12px;
+}
+.vignette{
+    width:40.5%;
+}
+}
+body {
+	font-family: itc;
+}
 
 nav {
 	float:left;
@@ -48,11 +70,6 @@ nav ul {
 }
 nav ul li {
 	display:block;
-}
-nav a {
-	padding:0 10px 0 30px;
-	text-decoration:none;
-	color:black;
 }
 nav a.active{
 	color:white;
