@@ -84,6 +84,58 @@ nav a.active{
     width:22.5%;
 	max-width:345px;
 }
+.movie
+{
+	background:#FFF;
+	position:absolute;
+	display:inline;
+	bottom:32px;
+	z-index:2;
+	padding:0;
+    width:50%;
+	font-size: 0.8em;
+    height:44px;
+	overflow:hidden;
+	line-height: 2.3;
+	text-align: center;
+	white-space: nowrap;
+	margin-bottom: -20px;
+}
+.name{
+	display:none;
+	position:absolute;
+	bottom:105px;
+	z-index:3;
+	padding:0;
+    width:93%;
+	font-size: 1.1em;
+    height:80px;
+	overflow:hidden;
+	line-height: 2.3;
+	text-align: center;
+	white-space: nowrap;
+	margin-bottom: -20px;
+	color:#49004A;
+	font-weight:900;
+	line-height:1.5;
+	overflow: visible;
+}
+.blok:hover .name{
+	display:inline;
+}
+.blok{
+	display:inline;
+	position:relative;
+}
+.mask{
+	display:inline;
+	position:relative;
+	bottom:5px;
+}
+.blok:hover .mask{
+	background:#FFF;
+	opacity:0.4;
+}
 @media screen and (max-width: 1024px) { /*three column layout*/
 .vignette{
     margin:0 3% 3% 0;
