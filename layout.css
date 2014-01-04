@@ -1,0 +1,122 @@
+@font-face {
+font-family: itc;
+src: url("itc.otf") format("opentype");
+}
+body {
+	font-family: itc;
+	text-transform:uppercase;	
+	color:#6e6e6e;
+	border:0;
+	margin:0;
+}
+.side{
+padding-top:9px;
+/*background:#F00;*/
+position:fixed;
+width:295px;
+height:100%;
+}
+.main{
+/*background:#00F;*/
+margin-left:295px;
+padding-top:22px;
+}
+.main p{
+margin:0;
+}
+section{
+	line-height: 0;
+	margin:20px -3% 0 0;
+	/*background:#0F0;*/
+}
+h1{
+	display: inline;
+	color:black;
+	margin:0 0 0 20px;
+	text-shadow: 1px 1px 0px #00c8ff,-1px -1px 0px #c600e7;
+}
+h1:after {
+	content: url('logo.png');
+	margin-left: 20px;
+}
+nav {
+	color:#6e6e6e;
+	text-align:left;
+	white-space:nowrap;
+}
+nav ul {
+	padding:0;
+	margin:0;
+	line-height:150%;
+}
+nav ul li {
+	display:block;
+	margin-top:12px;
+}
+nav a {
+	padding:0 10px 0 20px;
+	text-decoration:none;
+	color:black;
+}
+nav a.active{
+	color:white;
+	background:black;
+	-moz-box-shadow: 1px 1px 0px 0px #00c8ff,-1px -1px 0px 0px #c600e7;
+	-webkit-box-shadow: 1px 1px 0px 0px #00c8ff,-1px -1px 0px 0px #c600e7;
+	-o-box-shadow: 1px 1px 0px 0px #00c8ff,-1px -1px 0px 0px #c600e7;
+	box-shadow: 1px 1px 0px 0px #00c8ff,-1px -1px 0px 0px #c600e7;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#00c8ff, Direction=134, Strength=0);
+}
+.vignette{
+    margin:0 2% 2% 0;
+    width:22.5%;
+	max-width:345px;
+}
+@media screen and (max-width: 1280px) { /*three column layout*/
+.vignette{
+    margin:0 3% 3% 0;
+    width:30%;
+}
+section{margin-right:-2%;}
+.main {margin-left:266px;padding-top:19px;}
+.side {width:266px;padding-top:8px;}
+body {
+	font-size: 14px;
+}
+}
+@media screen and (max-width: 1024px) { /*two column layout */
+.side{
+	width:100%;
+	heigth:50px;
+	padding-top:8px;
+	top:0;
+	overflow:hidden;
+}
+.vignette{
+    margin:0 3% 3% 0;
+    width:46%;
+}
+.container{
+	position: fixed;
+	top:50px;
+	height:94%;
+	background:#FF0;
+	overflow:scroll;
+}
+section{margin:2% 2% 0 0;text-align: center;}
+.main {margin-left:2%;padding-top:0px;}
+nav {float:right;}
+nav ul li {
+	display:inline;
+	margin:0 3px;
+}
+nav ul li a {
+	padding:0;
+}
+nav ul {
+    line-height: 300%;
+}
+body {
+	font-size: 12px;
+}
+}
