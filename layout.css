@@ -23,6 +23,9 @@ padding-top:22px;
 }
 .main p{
 margin:0;
+font-size:0.75em;
+white-space: nowrap;
+overflow-x:hidden;
 }
 section{
 	line-height: 0;
@@ -32,12 +35,14 @@ section{
 h1{
 	display: inline;
 	color:black;
-	margin:0 0 0 20px;
+	margin:0 0 0 10px;
 	text-shadow: 1px 1px 0px #00c8ff,-1px -1px 0px #c600e7;
 }
 h1:after {
 	content: url('logo.png');
-	margin-left: 20px;
+	margin-left: 9px;
+	position:relative;
+	top:4px;
 }
 nav {
 	color:#6e6e6e;
@@ -47,14 +52,14 @@ nav {
 nav ul {
 	padding:0;
 	margin:0;
-	line-height:150%;
+	line-height:100%;
 }
 nav ul li {
 	display:block;
 	margin-top:12px;
 }
 nav a {
-	padding:0 10px 0 20px;
+	padding:0 10px;
 	text-decoration:none;
 	color:black;
 }
@@ -72,25 +77,39 @@ nav a.active{
     width:22.5%;
 	max-width:345px;
 }
-@media screen and (max-width: 1280px) { /*three column layout*/
+@media screen and (max-width: 1024px) { /*three column layout*/
 .vignette{
     margin:0 3% 3% 0;
     width:30%;
 }
 section{margin-right:-2%;}
-.main {margin-left:266px;padding-top:19px;}
-.side {width:266px;padding-top:8px;}
+.main {margin-left:203px;padding-top:5px;overflow-x:hidden;}
+.side {width:203px;padding-top:2px;}
 body {
 	font-size: 14px;
 }
+.main p:before {
+	content: url('logo.png');
+	position:relative;
+	top:7px;
+	margin-right: 11px;
 }
-@media screen and (max-width: 1024px) { /*two column layout */
+h1:after {
+	content: "";
+}
+}
+@media screen and (max-width: 800px) { /*two column layout */
 .side{
 	width:100%;
 	heigth:50px;
 	padding-top:8px;
 	top:0;
 	overflow:hidden;
+}
+h1:after {
+    margin-left: 9px;
+    position: relative;
+    top: 4px;
 }
 .vignette{
     margin:0 3% 3% 0;
@@ -112,9 +131,6 @@ nav ul li {
 }
 nav ul li a {
 	padding:0;
-}
-nav ul {
-    line-height: 300%;
 }
 body {
 	font-size: 12px;
