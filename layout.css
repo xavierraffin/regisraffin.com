@@ -100,7 +100,7 @@ body {
 	position: fixed;
 	top:50px;
 	height:94%;
-	background:#FF0;
+	/*background:#FF0;*/
 	overflow:scroll;
 }
 section{margin:2% 2% 0 0;text-align: center;}
