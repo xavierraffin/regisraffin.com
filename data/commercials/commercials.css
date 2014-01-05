@@ -1,11 +1,11 @@
 .movie1{ 
-	background-image:url("panthere.jpg");
+	background-image:url("bruel2");
 }
 .movie1 .customer:after{
-	content:"Louis Vuitton";
+	content:"bruel/marin";
 }
 .movie1 .title:before{
-	content:"The Groom swiming in the clouds";
+	content:"le concert";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
@@ -13,14 +13,41 @@
 
 
 .movie2{
-	background-image:url("panthere.jpg");
+	background-image:url("lee cooper.jpg");
 }
 .movie2 .customer:after{
-	content:"Joe Bidwell";
+	content:"lee cooper";
 }
 .movie2 .title:before{
-	content:"I love champs";
+	content:"the fine english denim company";
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}
 
+
+
+.movie3{
+	background-image:url("greenpeace.jpg");
+}
+.movie3 .customer:after{
+	content:"greenpeace";
+}
+.movie3 .title:before{
+	content:"ultimatum climatique";
+}
+.blok:hover.movie3 .title:after{display:block;}
+.blok.movie3{display:inline-block;}
+
+
+
+.movie4{
+	background-image:url("originals.jpg");
+}
+.movie4 .customer:after{
+	content:"lee cooper";
+}
+.movie4 .title:before{
+	content:"originals";
+}
+.blok:hover.movie4 .title:after{display:block;}
+.blok.movie4{display:inline-block;}
