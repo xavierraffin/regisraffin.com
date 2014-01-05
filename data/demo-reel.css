@@ -1,0 +1,14 @@
+.movie1{ 
+	background-image:url("panthere.jpg");
+}
+.movie1 .customer:after{
+	content:"Louis Vuitton";
+}
+.movie1 .title:before{
+	content:"The Groom swiming in the clouds";
+}
+.blok:hover.movie1 .title:after{display:block;}
+.blok.movie1{display:inline-block;}
+
+
+
