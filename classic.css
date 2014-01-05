@@ -10,8 +10,18 @@ body {
 	margin:0;
 	height: 100%;
 }
-figure{
+.video{
 	display:none;
+	width:71.5%;
+	height:0;
+	padding-bottom:40.17%;
+	margin:0 2% 2% 0;
+}
+iframe{
+	border:0;
+}
+.visible{
+	display:inline-block;
 }
 .menuicon {display:none}
 .side{
@@ -94,14 +104,24 @@ nav a.active{
     width:22.5%;
 	max-width:345px;
 }
+.legend{
+	display:inline-block;
+	background:#E7E7E7;
+	margin-bottom:0;
+	line-height:1.5;
+	text-align:right;
+}
 .blok .customer{
 	position: absolute;
 	height: 30px;
-	width:120px;
+	width:130px;
 	z-index:2;
 	background:#FFF;
 	bottom:0;
 	text-align:center;
+}
+.blok.legend .customer{
+	top:0;
 }
 .blok .title{
     display:none;
@@ -114,15 +134,37 @@ nav a.active{
 	text-align:center;
 	line-height:1.1;
 }
+.blok.legend .desc{
+	display:block;
+	position: absolute;
+	height: 100px;
+	width:80%;
+	left:10%;
+	z-index:3;
+	top:23%;
+	font-size:0.8em;
+}
+.blok.legend .desc:after{
+	content:"";
+	display:block;
+	position:relative;
+	width:40px;
+	height:40px;
+	right:0;
+	margin-left:83%;
+	top:7px;
+	background-image:url("logo-white.png");
+}
 .blok:hover:after{
 	content:"";
 	position:absolute;
 	top:0;
+	left:0;
 	background:#FFF;
 	width:100%;
 	height:100%;
 	z-index:1;
-	opacity: 0.3;
+	opacity: 0.7;
 }
 .blok:hover .title:after{
 	content:"";
