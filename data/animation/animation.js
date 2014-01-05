@@ -38,5 +38,4 @@ var videos = {
             "head": "louis vuitton",
             "desc": "the little groom<br>in marina bay<br>Director: Régis Raffin<br>Production: Maneki Lab<br>2011",
             "vimeocode": 82192854
-
     };
