@@ -1,0 +1,78 @@
+.movie1{ 
+	background-image:url("panthere.jpg");
+}
+.movie1 .customer:after{
+	content:"Louis Vuitton";
+}
+.movie1 .title:before{
+	content:"The Groom swiming in the clouds";
+}
+.blok:hover.movie1 .title:after{	display:block;}
+.blok.movie1{display:inline-block;}
+
+
+
+.movie2{
+	background-image:url("panthere.jpg");
+}
+.movie2 .customer:after{
+	content:"Joe Bidwell";
+}
+.movie2 .title:before{
+	content:"I love champs";
+}
+.blok:hover.movie2 .title:after{	display:block;}
+.blok.movie2{display:inline-block;}
+
+
+.movie3{
+	background-image:url("panthere.jpg");
+}
+.movie3 .customer:after{
+	content:"Sam Lawry";
+}
+.movie3 .title:before{
+	content:"That make me happy";
+}
+.blok:hover.movie3 .title:after{	display:block;}
+.blok.movie3{display:inline-block;}
+
+
+.movie4{
+	background-image:url("panthere.jpg");
+}
+.movie4 .customer:after{
+	content:"Bustaflex";
+}
+.movie4 .title:before{
+	content:"very";
+}
+.blok:hover.movie4 .title:after{	display:block;}
+.blok.movie4{display:inline-block;}
+
+
+.movie5{
+	background-image:url("panthere.jpg");
+}
+.movie5 .customer:after{
+	content:"Barack Obama";
+}
+.movie5 .title:before{
+	content:"very happy";
+}
+.blok:hover.movie5 .title:after{	display:block;}
+.blok.movie5{display:inline-block;}
+
+
+
+.movie6{
+	background-image:url("panthere.jpg");
+}
+.movie6 .customer:after{
+	content:"This guy have a very long name !";
+}
+.movie6 .title:before{
+	content:"and there is too many words here. It will never fit in that little box ! Godd damn it, What can we do with that ? I don't know";
+}
+.blok:hover.movie6 .title:after{	display:block;}
+.blok.movie6{display:inline-block;}

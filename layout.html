@@ -8,6 +8,37 @@
 	<!--[if lt IE 9]>
 	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<script>
+	$(function() {
+    
+    var $allVideos = $("iframe[src^='//player.vimeo.com']"),
+    $fluidEl = $(".video");
+	    	
+	$allVideos.each(function() {
+	
+	  $(this)
+	    // jQuery .data does not work on object/embed elements
+	    .attr('data-aspectRatio', this.height / this.width)
+	    .removeAttr('height')
+	    .removeAttr('width');
+	
+	});
+	
+	$(window).resize(function() {
+	
+	  var newWidth = $fluidEl.width();
+	  $allVideos.each(function() {
+	  
+	    var $el = $(this);
+	    $el
+	        .width(newWidth)
+	        .height(newWidth * $el.attr('data-aspectRatio'));
+	  
+	  });
+	
+	}).resize();
+    });
+    </script>
   </head>
   <body>
   <div class="glub">
@@ -30,7 +61,12 @@
   <div class="main">
   <p><span lang="fr">Réalisateur de fictions, clips, marketing viral et publicités TV</span> / fiction, music vidéos, viral & TV commercial director</p>
   <section>
-   <div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div>
+   <figure>
+    <div class="video">
+	  <iframe src="//player.vimeo.com/video/10347431" width="1084" height="609" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	</div>
+   </figure>
+   <div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">Louis Vuitton 1</div><div class="maskfull"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom 1<br>is swiging in<br>the clouds</div><div class="movie">Louis Vuitton 1</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON 2</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON 3</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON 4</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON 5</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON 6</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON 7</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON 8</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div><div class="blok"><div class="name">The little Groom<br>is swiging in<br>the clouds</div><div class="movie">LOUIS VUITTON</div><div class="mask"><img class="vignette" src="vignette.jpg" alt="the little groom"/></div></div>
    </section>
   </div>
   </div>

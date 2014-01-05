@@ -42,11 +42,13 @@ section{
 	margin:20px -3% 0 0;
 	/*background:#0F0;*/
 }
-h1{
+h1, .title:before, .title:after{
+	color:black;
+	text-shadow: 1px 1px 0px #00c8ff,-1px -1px 0px #c600e7;
+}
+h1 {
 	display: inline;
 	color:black;
-	margin:0 0 0 10px;
-	text-shadow: 1px 1px 0px #00c8ff,-1px -1px 0px #c600e7;
 }
 h1:after {
 	content: url('logo.png');
@@ -82,67 +84,63 @@ nav a.active{
 	box-shadow: 1px 1px 0px 0px #00c8ff,-1px -1px 0px 0px #c600e7;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#00c8ff, Direction=134, Strength=0);
 }
-.vignette{
-    margin:0 2% 2% 0;
+.blok {
+    background: repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+    display: none;
+    padding-top: 16.89%;
+    width: 20%;
+	margin:0 2% 2% 0;
     width:22.5%;
 	max-width:345px;
 }
-.movie
-{
-	background:#FFF;
-	position:absolute;
-	bottom:32px;
+.blok .customer{
+	position: absolute;
+	height: 30px;
+	width:120px;
 	z-index:2;
-	padding:0;
-    width:50%;
-	font-size: 0.8em;
-    height:44px;
-	overflow:hidden;
-	line-height: 2.3;
-	text-align: center;
-	white-space: nowrap;
-	margin-bottom: -20px;
+	background:#FFF;
+	bottom:0;
+	text-align:center;
 }
-.name{
-	display:none;
-	position:absolute;
-	bottom:105px;
+.blok .title{
+    display:none;
+	position: absolute;
+	height: 100px;
+	width:80%;
+	left:10%;
 	z-index:3;
-	padding:0;
-    width:93%;
-	font-size: 1.1em;
-    height:80px;
-	overflow:hidden;
-	line-height: 2.3;
-	text-align: center;
+	top:23%;
+	text-align:center;
+	line-height:1.1;
+}
+.blok:hover:after{
+	content:"";
+	position:absolute;
+	top:0;
+	background:#FFF;
+	width:100%;
+	height:100%;
+	z-index:1;
+	opacity: 0.3;
+}
+.blok:hover .title:after{
+	content:"";
+	display:none;
+	position:relative;
+	width:25px;
+	height:20px;
+	left:50%;
+	margin-left:-12.5px;
+	top:7px;
+	background-image:url("logo.png");
+}
+.blok:hover .title{
+	display:inline;
+}
+.blok .customer:after{
+	font-size:0.8em;
+	line-height: 2;
 	white-space: nowrap;
-	margin-bottom: -20px;
-	color:#49004A;
-	font-weight:900;
-	line-height:1.5;
-	overflow: visible;
-}
-.blok:hover .name{
-	display:inline;
-}
-.blok{
-	display:inline;
-	position:relative;
-}
-.mask{
-	display:inline;
-	position:relative;
-	bottom:5px;
-}
-.blok:hover .mask{
-	opacity:0.4;
-}
-.maskfull{
-	display:inline;
-	position:relative;
-	bottom:5px;
-	opacity:0;
-	background:#E7E7E7;
 }
 @media screen and (max-width: 1024px) { /*three column layout*/
 .vignette{
