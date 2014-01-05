@@ -186,7 +186,7 @@ nav a.active{
 	white-space: nowrap;
 }
 @media screen and (max-width: 1024px) { /*three column layout*/
-.vignette{
+.blok{
     margin:0 3% 3% 0;
     width:30%;
 }
