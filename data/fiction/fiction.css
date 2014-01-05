@@ -1,11 +1,11 @@
 .movie1{ 
-	background-image:url("panthere.jpg");
+	background-image:url("denis.jpg");
 }
 .movie1 .customer:after{
-	content:"Louis Vuitton";
+	content:"regisraffin";
 }
 .movie1 .title:before{
-	content:"The Groom swiming in the clouds";
+	content:"denis le zombie";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
