@@ -13,14 +13,42 @@
 
 
 .movie2{
-	background-image:url("panthere.jpg");
+	background-image:url("elliot bio.jpg");
 }
 .movie2 .customer:after{
-	content:"Joe Bidwell";
+	content:"elliott 1er";
 }
 .movie2 .title:before{
-	content:"I love champs";
+	content:"les grands de ce monde";
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}
+
+
+
+.movie3{
+	background-image:url("bruel.jpg");
+}
+.movie3 .customer:after{
+	content:"bruel/marin";
+}
+.movie3 .title:before{
+	content:"le concert";
+}
+.blok:hover.movie3 .title:after{display:block;}
+.blok.movie3{display:inline-block;}
+
+
+
+.movie4{
+	background-image:url("couriers.jpg");
+}
+.movie4 .customer:after{
+	content:"kabo";
+}
+.movie4 .title:before{
+	content:"les courriers du quoeur";
+}
+.blok:hover.movie4 .title:after{display:block;}
+.blok.movie4{display:inline-block;}
 
