@@ -87,6 +87,7 @@ nav a.active{
 .blok {
     background: repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
     display: none;
+	position:relative;
     padding-top: 16.89%;
     width: 20%;
 	margin:0 2% 2% 0;
