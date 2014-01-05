@@ -1,11 +1,11 @@
 .movie1{ 
-	background-image:url("panthere.jpg");
+	background-image:url("groom peplum.jpg");
 }
 .movie1 .customer:after{
 	content:"Louis Vuitton";
 }
 .movie1 .title:before{
-	content:"The Groom swiming in the clouds";
+	content:"The little groom is swinging in the clouds";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
@@ -13,10 +13,10 @@
 
 
 .movie2{
-	background-image:url("panthere.jpg");
+	background-image:url("groom roma.jpg");
 }
 .movie2 .customer:after{
-	content:"Joe Bidwell";
+	content:"Louis Vuitton";
 }
 .movie2 .title:before{
 	content:"I love champs";
