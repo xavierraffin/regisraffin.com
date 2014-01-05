@@ -2,7 +2,7 @@
 	background-image:url("denis.jpg");
 }
 .movie1 .customer:after{
-	content:"regisraffin";
+	content:"regis raffin";
 }
 .movie1 .title:before{
 	content:"denis le zombie";
