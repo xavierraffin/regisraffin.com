@@ -103,13 +103,15 @@ nav a.active{
 	margin:0 2% 2% 0;
     width:22.5%;
 	max-width:345px;
+	cursor:pointer;
 }
 .legend{
-	display:inline-block;
+	/*display:inline-block;*/
 	background:#E7E7E7;
 	margin-bottom:0;
 	line-height:1.5;
 	text-align:right;
+	cursor:default;
 }
 .blok .customer{
 	position: absolute;
