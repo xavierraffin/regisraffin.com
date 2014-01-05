@@ -5,7 +5,7 @@
 	content:"Louis Vuitton";
 }
 .movie1 .title:before{
-	content:"The little groom is swinging in the clouds";
+	content:"The little groom is fighting in the arena";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
@@ -13,52 +13,52 @@
 
 
 .movie2{
-	background-image:url("groom roma.jpg");
+	background-image:url("groom western.jpg");
 }
 .movie2 .customer:after{
 	content:"Louis Vuitton";
 }
 .movie2 .title:before{
-	content:"I love champs";
+	content:"the little groom in duel in the dust";
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}
 
 
 .movie3{
-	background-image:url("groom peplum.jpg");
+	background-image:url("groom roma.jpg");
 }
 .movie3 .customer:after{
-	content:"Sam Lawry";
+	content:"louis vuitton";
 }
 .movie3 .title:before{
-	content:"That make me happy";
+	content:"the little groom is falling in love in roma";
 }
 .blok:hover.movie3 .title:after{display:block;}
 .blok.movie3{display:inline-block;}
 
 
 .movie4{
-	background-image:url("groom peplum.jpg");
+	background-image:url("confrerie.jpg");
 }
 .movie4 .customer:after{
-	content:"Bustaflex";
+	content:"cinema";
 }
 .movie4 .title:before{
-	content:"very";
+	content:"la confrérie des larmes";
 }
 .blok:hover.movie4 .title:after{display:block;}
 .blok.movie4{display:inline-block;}
 
 
 .movie5{
-	background-image:url("groom peplum.jpg");
+	background-image:url("dyson.jpg");
 }
 .movie5 .customer:after{
-	content:"Barack Obama";
+	content:"dyson";
 }
 .movie5 .title:before{
-	content:"very happy";
+	content:"l'affaire airblade";
 }
 .blok:hover.movie5 .title:after{display:block;}
 .blok.movie5{display:inline-block;}
@@ -66,13 +66,39 @@
 
 
 .movie6{
-	background-image:url("panthere.jpg");
+	background-image:url("smart start.jpg");
 }
 .movie6 .customer:after{
-	content:"This guy have a very long name !";
+	content:"bnp paribas";
 }
 .movie6 .title:before{
-	content:"and there is too many words here. It will never fit in that little box ! Godd damn it, What can we do with that ? I don't know";
+	content:"smart start";
 }
 .blok:hover.movie6 .title:after{display:block;}
 .blok.movie6{display:inline-block;}
+
+
+.movie7{
+	background-image:url("groom swinging");
+}
+.movie7 .customer:after{
+	content:"louis vuitton";
+}
+.movie7 .title:before{
+	content:"the little groom is swinging in the clouds";
+}
+.blok:hover.movie7 .title:after{display:block;}
+.blok.movie7{display:inline-block;}
+
+
+.movie8{
+	background-image:url("groom marina.jpg");
+}
+.movie8 .customer:after{
+	content:"louis vuitton";
+}
+.movie8 .title:before{
+	content:"the little groom in marina bay";
+}
+.blok:hover.movie8 .title:after{display:block;}
+.blok.movie8{display:inline-block;}
