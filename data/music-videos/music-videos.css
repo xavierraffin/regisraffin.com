@@ -1,11 +1,11 @@
 .movie1{ 
-	background-image:url("panthere.jpg");
+	background-image:url("ferdinand.jpg");
 }
 .movie1 .customer:after{
-	content:"Louis Vuitton";
+	content:"eric mcfadden";
 }
 .movie1 .title:before{
-	content:"The Groom swiming in the clouds";
+	content:"where is ferdinand ?";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
@@ -13,14 +13,96 @@
 
 
 .movie2{
-	background-image:url("panthere.jpg");
+	background-image:url("marker brown.jpg");
 }
 .movie2 .customer:after{
-	content:"Joe Bidwell";
+	content:"marker brown";
 }
 .movie2 .title:before{
-	content:"I love champs";
+	content:"sun don't shine";
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}
 
+
+
+.movie3{
+	background-image:url("marin.jpg");
+}
+.movie3 .customer:after{
+	content:"charlotte marin";
+}
+.movie3 .title:before{
+	content:"le plus beau jour de ma vie";
+}
+.blok:hover.movie3 .title:after{display:block;}
+.blok.movie3{display:inline-block;}
+
+
+.movie4{
+	background-image:url("kish mauve.jpg");
+}
+.movie4 .customer:after{
+	content:"kish mauve";
+}
+.movie4 .title:before{
+	content:"matthew";
+}
+.blok:hover.movie4 .title:after{display:block;}
+.blok.movie4{display:inline-block;}
+
+
+
+.movie5{
+	background-image:url("rhythm n white.jpg");
+}
+.movie5 .customer:after{
+	content:"little big boy";
+}
+.movie5 .title:before{
+	content:"rhythm n white";
+}
+.blok:hover.movie5 .title:after{display:block;}
+.blok.movie5{display:inline-block;}
+
+
+
+.movie6{
+	background-image:url("tahiti.jpg");
+}
+.movie6 .customer:after{
+	content:"albert de paname";
+}
+.movie6 .title:before{
+	content:"tahiti";
+}
+.blok:hover.movie6 .title:after{display:block;}
+.blok.movie6{display:inline-block;}
+
+
+
+.movie7{
+	background-image:url("koritni.jpg");
+}
+.movie7 .customer:after{
+	content:"koritni";
+}
+.movie7 .title:before{
+	content:"heaven again";
+}
+.blok:hover.movie7 .title:after{display:block;}
+.blok.movie7{display:inline-block;}
+
+
+
+.movie8{
+	background-image:url("la pose.jpg");
+}
+.movie8 .customer:after{
+	content:"elliott 1er";
+}
+.movie8 .title:before{
+	content:"la pose";
+}
+.blok:hover.movie8 .title:after{display:block;}
+.blok.movie8{display:inline-block;}
