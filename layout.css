@@ -159,7 +159,7 @@ h1:after {
 @media screen and (max-width: 800px) { /*two column layout */
 .side{
 	width:100%;
-	heigth:50px;
+	height:50px;
 	padding-top:8px;
 	top:0;
 	overflow:hidden;
