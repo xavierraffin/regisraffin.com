@@ -38,14 +38,14 @@ overflow: hidden;
 .main{
 /*background:#00F;*/
 margin-left:265px;
-padding-top:19px;
+padding-top:15px;
 position:relative;
 width: auto;
 height:100%;
 }
 .main p{
 margin:0;
-font-size:0.70em;
+font-size:0.80em;
 white-space: nowrap;
 }
 section{
@@ -136,6 +136,7 @@ nav a.active{
 	position: absolute;
 	height: 100px;
 	width:80%;
+	font-size:1.2em;
 	left:10%;
 	z-index:3;
 	top:23%;
@@ -146,8 +147,7 @@ nav a.active{
 	display:block;
 	position: absolute;
 	height: 100px;
-	width:80%;
-	left:10%;
+	width:97%;
 	z-index:3;
 	top:23%;
 	font-size:0.8em;
@@ -196,6 +196,12 @@ nav a.active{
 	line-height: 2;
 	white-space: nowrap;
 }
+
+@media screen and (max-width: 1157px) {
+.blok.legend .desc{
+	font-size:0.7em;
+}
+
 @media screen and (max-width: 1024px) { /*three column layout*/
 .blok{
     margin:0 3% 3% 0;
