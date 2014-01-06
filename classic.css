@@ -9,14 +9,14 @@ body {
 	border:0;
 	margin:0;
 	height: 100%;
-	14px;
+	font-size:14px;
 }
 .video{
 	display:none;
-	width:71.5%;
+	width:69.4%;
 	height:0;
-	padding-bottom:40.17%;
-	margin:0 2% 2% 0;
+	padding-bottom:38.6%;
+	margin:0 1.7% 1.7% 0;
 }
 iframe{
 	border:0;
@@ -105,10 +105,10 @@ nav a.active{
     background: repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
     display: none;
 	position:relative;
-    padding-top: 16.89%;
+    padding-top: 16.514%;
     width: 20%;
-	margin:0 2% 2% 0;
-    width:22.5%;
+	margin:0 1.7% 1.7% 0;
+    width:22%;
 	cursor:pointer;
 }
 .legend{
