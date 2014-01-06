@@ -23,5 +23,5 @@ var videos = {
             "head": "france 4",
             "desc": "5 fruits et légumes par jours<br>Director: Régis raffin<br>production: eden<br>2011",
             "vimeocode": 82778494
-
+        }
     };

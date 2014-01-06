@@ -38,5 +38,5 @@ var videos = {
             "head": "elliott 1er",
             "desc": "la pose<br>Director: Régis Raffin<br>Production: Maneki Lab<br>2011",
             "vimeocode": 4690872
-
+        }
     };
