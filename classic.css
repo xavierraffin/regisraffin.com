@@ -102,7 +102,6 @@ nav a.active{
     width: 20%;
 	margin:0 2% 2% 0;
     width:22.5%;
-	max-width:345px;
 	cursor:pointer;
 }
 .legend{
