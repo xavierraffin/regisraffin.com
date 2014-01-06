@@ -192,7 +192,8 @@ nav a.active{
 @media screen and (max-width: 1024px) { /*three column layout*/
 .blok{
     margin:0 3% 3% 0;
-    width:30%;
+    width:30%;	
+    padding-top: 22.52%;
 }
 section{margin-right:-2%;}
 .main {margin-left:220px;padding-top:4px;}
@@ -227,16 +228,17 @@ h1:after {
 .main p:before {
 	content: "";
 }
-.vignette{
+.blok{
     margin:0 1.5% 3% 1.5%;
     width:46%;
+	padding-top:34.53%
 }
 .container{
 	position: fixed;
 	top:50px;
 	height:94%;
-	/*background:#FF0;*/
-	overflow:scroll;
+	/*background:#FF0;
+	overflow:scroll;*/
 }
 section{margin:2% 2% 0 2%;text-align: center;}
 .main {margin-left:0;padding-top:0px;}
@@ -262,7 +264,7 @@ body {
 }
 }
 @media screen and (max-width: 640px) {
-.vignette{
+.blok{
     margin:0 1.5% 3% 1.5%;
     width:148px;
 }
