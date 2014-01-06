@@ -9,6 +9,7 @@ body {
 	border:0;
 	margin:0;
 	height: 100%;
+	14px;
 }
 .video{
 	display:none;
@@ -54,6 +55,7 @@ section{
 }
 h1, .title:before, .title:after{
 	color:black;
+	font-weight:400;
 	text-shadow: 1px 1px 0px #00c8ff,-1px -1px 0px #c600e7;
 }
 h1 {
@@ -70,6 +72,7 @@ nav {
 	color:#6e6e6e;
 	text-align:left;
 	white-space:nowrap;
+	text-transform: capitalize;
 }
 nav ul {
 	padding:0;
