@@ -53,15 +53,18 @@ section{
 	margin:20px -3% 0 0;
 	/*background:#0F0;*/
 }
-h1, .title:before, .title:after{
+.title:before, .title:after{
 	color:black;
-	font-weight:400;
-	margin-left:10px;
+	text-shadow: 0.5px 0.5px 0px #00c8ff,-0.5px -0.5px 0px #c600e7;
+}
+h1{
+	color:black;
 	text-shadow: 1px 1px 0px #00c8ff,-1px -1px 0px #c600e7;
 }
 h1 {
 	display: inline;
-	color:black;
+	font-weight:400;
+	margin-left:10px;
 }
 h1:after {
 	content: url('logo.png');
@@ -87,7 +90,7 @@ nav ul li {
 nav a {
 	padding:0 10px 1px;
 	text-decoration:none;
-	color:black;
+	color:#6E6E6E;
 }
 nav a.active{
 	color:white;
