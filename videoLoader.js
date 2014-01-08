@@ -13,5 +13,5 @@ function loadVideo(movie)
   $(legendDesc).html(videos[movie].desc);
   $(legend).css("display","inline-block");
   
-  document.location.href = originalUrl+"?movie=1";
+  window.history.pushState('page2', 'Title', '?movie=1');
 }
