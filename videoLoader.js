@@ -1,5 +1,5 @@
 var originalUrl = document.location.href;
-var getPos = originalUrl.lastIndexOf("=");
+var getPos = originalUrl.lastIndexOf("=") + 1;
 
 function loadVideo(movie)
 {
@@ -20,7 +20,7 @@ function loadVideo(movie)
 $(function() {
 if(getPos != 0)
 {
-	movieToLoad = originalUrl.substring(getPos + 1);
+	movieToLoad = originalUrl.substring(getPos);
 	loadVideo(movieToLoad);
 }
 });
