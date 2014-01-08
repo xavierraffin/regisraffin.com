@@ -246,7 +246,7 @@ h1:after {
 .blok.legend .desc{font-size:0.8em;}
 .main p{font-size:0.65em;}
 }
-@media screen and (max-width: 853px) { /*two column layout */
+@media screen and (max-width: 853px) { /*Ipad portrait two column layout */
 .blok{
     margin:0 3% 3% 0;
     width:44%;	
@@ -257,6 +257,7 @@ h1:after {
 	padding-bottom:52%;
 	margin:0 2% 2% 0;
 }
+.main p span {display:none}
 }
 
 @media screen and (max-width: 767px) { /*two column layout */
