@@ -1,3 +1,5 @@
+var originalUrl = document.location.href;
+
 function loadVideo(movie)
 {
   video = $(".video");
@@ -10,4 +12,6 @@ function loadVideo(movie)
   $(legendCustomer).html(videos[movie].head);
   $(legendDesc).html(videos[movie].desc);
   $(legend).css("display","inline-block");
+  
+  document.location.href = originalUrl+"?movie=1";
 }
