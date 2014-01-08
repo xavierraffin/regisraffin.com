@@ -150,7 +150,7 @@ nav a.active{
 	width:97%;
 	z-index:3;
 	top:23%;
-	font-size:0.8em;
+	font-size:1.3em;
 }
 .blok.legend .desc:after{
 	content:"";
@@ -197,10 +197,16 @@ nav a.active{
 	white-space: nowrap;
 }
 
-@media screen and (max-width: 1157px) {
-.blok.legend .desc{
-	font-size:0.7em;
+@media screen and (max-width: 1600px) {
+.blok.legend .desc{font-size:1.1em;}
 }
+@media screen and (max-width: 1285px) {
+.blok.legend .desc{font-size:0.9em;}
+}
+@media screen and (max-width: 1157px) {
+.blok.legend .desc{font-size:0.7em;
+}
+
 
 @media screen and (max-width: 1024px) { /*three column layout*/
 .blok{
