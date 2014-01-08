@@ -1,4 +1,9 @@
 var originalUrl = document.location.href;
+movieToLoad = originalUrl.search.replace( "=", "" );
+if(movieToLoad != "")
+{
+	loadVideo(movieToLoad)
+}
 
 function loadVideo(movie)
 {
@@ -13,5 +18,5 @@ function loadVideo(movie)
   $(legendDesc).html(videos[movie].desc);
   $(legend).css("display","inline-block");
   
-  window.history.pushState('page2', 'Title', '?movie=1');
+  window.history.pushState('page2', 'Title', '?video=' + movie);
 }
