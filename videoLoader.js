@@ -1,11 +1,5 @@
 var originalUrl = document.location.href;
-var getPos = originalUrl.lastIndexOf("=")
-$(function() {
-if(getPos != 0)
-{
-	movieToLoad = originalUrl.substring(getPos + 1);
-	loadVideo(movieToLoad);
-}
+var getPos = originalUrl.lastIndexOf("=");
 
 function loadVideo(movie)
 {
@@ -21,5 +15,12 @@ function loadVideo(movie)
   $(legend).css("display","inline-block");
   
   window.history.pushState('page2', 'Title', '?video=' + movie);
+}
+
+$(function() {
+if(getPos != 0)
+{
+	movieToLoad = originalUrl.substring(getPos + 1);
+	loadVideo(movieToLoad);
 }
 });
