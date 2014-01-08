@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Régis Raffin - Director</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=no">
+	
+	<!-- for old doomed brothers (specific CSS + html5 support) -->
+	<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<link rel="stylesheet" type="text/css" href="ie8-and-down.css" />
+	<![endif]-->
+	
+	<!-- for not IE and IE > 9 -->
+	<!--[if !IE]><!-->
+	<link rel="stylesheet" type="text/css" href="classic.css" />
+	<!--<![endif]-->
+	<!--[if gte IE 9]>
+	<link rel="stylesheet" type="text/css" href="classic.css" />
+	<![endif]-->
+	
+	<link rel="stylesheet" type="text/css" href="data/demo-reel.css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+	$(function() {
+    
+    var $allVideos = $("iframe[src^='//player.vimeo.com']"),
+    $fluidEl = $(".video");
+	    	
+	$allVideos.each(function() {
+	
+	  $(this)
+	    // jQuery .data does not work on object/embed elements
+	    .attr('data-aspectRatio', this.height / this.width)
+	    .removeAttr('height')
+	    .removeAttr('width');
+	
+	});
+	
+	$(window).resize(function() {
+	
+	  var newWidth = $fluidEl.width();
+	  $allVideos.each(function() {
+	  
+	    var $el = $(this);
+	    $el
+	        .width(newWidth)
+	        .height(newWidth * $el.attr('data-aspectRatio'));
+	  
+	  });
+	
+	}).resize();
+    });
+    </script>
+  </head>
+  <body>
+  <div class="glub">
+  <div class="side">
+  <h1>REGIS RAFFIN</h1>
+  <div class="menuicon"></div>
+  <nav>
+  <ul>
+  <li><a href="./">Demo reel</a></li>
+  <li><a href="./animation">Animation</a></li>
+  <li><a href="./music-videos">Music videos</a></li>
+  <li><a href="./fiction">Fiction</a></li>
+  <li><a href="./commercials">Commercials</a></li>
+  <li><a class="active">About</a></li>
+  <li><a href="./contact">Contact</a></li>
+  </ul>
+  </nav>
+  </div>
+  <div class="container">
+  <div class="main">
+  <p><span lang="fr">Réalisateur de fictions, clips, marketing viral et publicités TV /</span> fiction, music videos, viral & TV commercial director</p>
+  <section>
+<div id="about">
+<p>Regis Raffin, 30 years old, began directing short films at the age of 10.</p>
+
+<p>Now he creates music videos for international artists, commercial films for brands such as Louis Vuitton, Cartier or Dyson, but also short fictions for TV and main titles for feature films.</p>
+
+<p>His style comes from his passion for comics, the geek culture and all genres of cinema. His recipe would be a lot of non-sense humour, an emphatic visual style but also the will to take the viewers to an emotional place.</p>
+
+<p>Regis Raffin is always looking for new technical ways to tell his stories that's why he loves to do live action movies as well as animation (2D, 3D, stop-motion, etc.).</p>
+
+<div id="breakline"><img src="logo.png"></div>
+
+<span lang="fr">
+<p>Regis Raffin, 30 ans, passionné de cinéma depuis toujours, a commencé à tourner ses propres films à l'âge de 10 ans.
+Aujourd'hui il réalise des clips pour des artistes internationaux, des films publicitaires pour des marques de luxe (Louis Vuitton, Cartier, Dyson, etc.), mais également des programmes courts pour la télévision, ou encore des génériques pour le cinéma.</p>
+
+<p>Ses films témoignent de sa passion pour la bande dessinée, la culture geek et le cinéma de tous horizons, dans son univers se côtoient un humour absurde hérité des Monty pythons, une mise en scène décomplexée, et toujours la volonté d'émouvoir et de transporter son spectateur.</p>
+
+<p>Passionné par la recherche de solutions techniques pour mettre en image ses inspirations, Régis Raffin ne s'interdit aucun support pour laisser libre court à son imagination ( tournage, animation 2D, 3D, stop-motion, etc.. ).</p>
+</div>
+</span>
+  </div>
+  </div>
+  </div>
+  </body>
+</html>

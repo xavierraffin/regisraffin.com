@@ -13,10 +13,26 @@ body {
 }
 .video{
 	display:none;
-	width:69.4%;
 	height:0;
 	padding-bottom:38.6%;
 	margin:0 1.7% 1.7% 0;
+}
+#about, .video{
+	width:69.4%;
+	margin-top:40px;
+}
+#breakline{
+	position:relative;
+	left:47%;
+    margin-bottom:20px;
+}
+#about p{
+	letter-spacing: 0.3px;
+	font-size: 1em;
+    line-height: 1.4;
+	white-space:normal;
+	margin-bottom:10px;
+	text-transform:none;
 }
 iframe{
 	border:0;
@@ -215,9 +231,11 @@ nav a.active{
     padding-top: 22.52%;
 }
 .video{
-	width:94%;
 	padding-bottom:52.8%;
 	margin:0 2% 2% 0;
+}
+#about, .video{
+	width:94%;
 }
 .blok.legend .desc{font-size:0.9em;}
 section{margin-right:-2%;}
@@ -253,9 +271,11 @@ h1:after {
     padding-top: 33.03%;
 }
 .video{
-	width:91%;
 	padding-bottom:52%;
 	margin:0 2% 2% 0;
+}
+#about, .video{
+	width:91%;
 }
 .main p span {display:none}
 .blok.legend .desc{font-size:0.85em;}
