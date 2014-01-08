@@ -258,6 +258,8 @@ h1:after {
 	margin:0 2% 2% 0;
 }
 .main p span {display:none}
+.blok.legend .desc{font-size:0.85em;}
+.main p{font-size:0.95em;}
 }
 
 @media screen and (max-width: 767px) { /*two column layout */
