@@ -106,3 +106,63 @@
 }
 .blok:hover.movie8 .title:after{display:block;}
 .blok.movie8{display:inline-block;}
+
+.movie9{
+	background-image:url("la pose.jpg");
+}
+.movie9 .customer:after{
+	content:"elliott 1er";
+}
+.movie9 .title:before{
+	content:"la pose";
+}
+.blok:hover.movie9 .title:after{display:block;}
+.blok.movie9{display:inline-block;}
+
+.movie10{
+	background-image:url("la pose.jpg");
+}
+.movie10 .customer:after{
+	content:"elliott 1er";
+}
+.movie10 .title:before{
+	content:"la pose";
+}
+.blok:hover.movie10 .title:after{display:block;}
+.blok.movie10{display:inline-block;}
+
+.movie11{
+	background-image:url("la pose.jpg");
+}
+.movie11 .customer:after{
+	content:"elliott 1er";
+}
+.movie11 .title:before{
+	content:"la pose";
+}
+.blok:hover.movie11 .title:after{display:block;}
+.blok.movie11{display:inline-block;}
+
+.movie12{
+	background-image:url("la pose.jpg");
+}
+.movie12 .customer:after{
+	content:"elliott 1er";
+}
+.movie12 .title:before{
+	content:"la pose";
+}
+.blok:hover.movie12 .title:after{display:block;}
+.blok.movie12{display:inline-block;}
+
+.movie13{
+	background-image:url("la pose.jpg");
+}
+.movie13 .customer:after{
+	content:"elliott 1er";
+}
+.movie13 .title:before{
+	content:"la pose";
+}
+.blok:hover.movie13 .title:after{display:block;}
+.blok.movie13{display:inline-block;}
