@@ -27,6 +27,7 @@ body {
     margin-bottom:20px;
 }
 #about p{
+	text-align:justify;
 	letter-spacing: 0.3px;
 	font-size: 1em;
     line-height: 1.4;
