@@ -21,6 +21,10 @@ body {
 	width:69.4%;
 	margin-top:40px;
 }
+#references {
+	width:100%;
+	max-width:1092px;
+}
 #breakline{
 	position:relative;
 	left:47%;
