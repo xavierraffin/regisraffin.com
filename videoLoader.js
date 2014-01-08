@@ -1,8 +1,10 @@
 var originalUrl = document.location.href;
-movieToLoad = originalUrl.search.replace( "=", "" );
-if(movieToLoad != "")
+var getPos = originalUrl.lastIndexOf("=")
+$(function() {
+if(getPos != 0)
 {
-	loadVideo(movieToLoad)
+	movieToLoad = originalUrl.substring(getPos + 1);
+	loadVideo(movieToLoad);
 }
 
 function loadVideo(movie)
@@ -20,3 +22,4 @@ function loadVideo(movie)
   
   window.history.pushState('page2', 'Title', '?video=' + movie);
 }
+});
