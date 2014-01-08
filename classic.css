@@ -204,16 +204,17 @@ nav a.active{
 .blok.legend .desc{font-size:0.9em;}
 }
 @media screen and (max-width: 1157px) {
-.blok.legend .desc{font-size:0.7em;
+.blok.legend .desc{font-size:0.7em;}
 }
 
 
 @media screen and (max-width: 1024px) { /*three column layout*/
 .blok{
-    margin:0 3% 3% 0;
+    margin:0 2% 2% 0;
     width:30%;	
     padding-top: 22.52%;
 }
+.blok.legend .desc{font-size:0.9em;}
 section{margin-right:-2%;}
 .main {margin-left:220px;padding-top:4px;}
 .side {width:220px;padding-top:2px;}
@@ -229,6 +230,9 @@ body {
 h1:after {
 	content: "";
 }
+}
+@media screen and (max-width: 890px) {
+.blok.legend .desc{font-size:0.8em;}
 }
 @media screen and (max-width: 800px) { /*two column layout */
 .side{
