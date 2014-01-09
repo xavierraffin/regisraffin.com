@@ -17,7 +17,13 @@ function loadVideo(movie)
   window.history.pushState('page2', 'Title', '?video=' + movie);
 }
 
+
 $(function() {
+
+$('.mov').hammer().on("tap", function(event) {
+		  loadVideo($( this ).attr('id'));
+});
+
 if(getPos != 0)
 {
 	movieToLoad = originalUrl.substring(getPos);
