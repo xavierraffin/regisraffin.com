@@ -11,6 +11,11 @@ body {
 	height: 100%;
 	font-size:14px;
 }
+#contact{
+	position: absolute;
+	top:130px;
+	left:300px;
+}
 .video{
 	display:none;
 	height:0;
