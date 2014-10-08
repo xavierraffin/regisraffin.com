@@ -1,66 +1,66 @@
 .movie1{ 
-	background-image:url("ferdinand.jpg");
+	background-image:url("hipsters must die.jpg");
 }
 .movie1 .customer:after{
-	content:"eric mcfadden";
+	content:"republic of rock n roll";
 }
 .movie1 .title:before{
-	content:"where is ferdinand ?";
+	content:"hipsters must die";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
 
 
 
-.movie2{
-	background-image:url("marner brown.jpg");
+.movie2{ 
+	background-image:url("ferdinand.jpg");
 }
 .movie2 .customer:after{
-	content:"marner brown";
+	content:"eric mcfadden";
 }
 .movie2 .title:before{
-	content:"sun don't shine";
+	content:"where is ferdinand ?";
 }
-.blok:hover.movie2 .title:after{display:block;}
+.blok:hover.movie2.title:after{display:block;}
 .blok.movie2{display:inline-block;}
 
 
 
 .movie3{
-	background-image:url("marin.jpg");
+	background-image:url("marner brown.jpg");
 }
 .movie3 .customer:after{
-	content:"charlotte marin";
+	content:"marner brown";
 }
 .movie3 .title:before{
-	content:"le plus beau jour de ma vie";
+	content:"sun don't shine";
 }
 .blok:hover.movie3 .title:after{display:block;}
 .blok.movie3{display:inline-block;}
 
 
+
 .movie4{
-	background-image:url("kish mauve.jpg");
+	background-image:url("marin.jpg");
 }
 .movie4 .customer:after{
-	content:"kish mauve";
+	content:"charlotte marin";
 }
 .movie4 .title:before{
-	content:"matthew";
+	content:"le plus beau jour de ma vie";
 }
 .blok:hover.movie4 .title:after{display:block;}
 .blok.movie4{display:inline-block;}
 
 
-
 .movie5{
-	background-image:url("rythm n white.jpg");
+	background-image:url("kish mauve.jpg");
 }
 .movie5 .customer:after{
-	content:"little big boy";
+	content:"kish mauve";
 }
 .movie5 .title:before{
-	content:"rhythm n white";
+	content:"matthew";
 }
 .blok:hover.movie5 .title:after{display:block;}
 .blok.movie5{display:inline-block;}
@@ -68,13 +68,13 @@
 
 
 .movie6{
-	background-image:url("tahiti.jpg");
+	background-image:url("rythm n white.jpg");
 }
 .movie6 .customer:after{
-	content:"albert de paname";
+	content:"little big boy";
 }
 .movie6 .title:before{
-	content:"tahiti";
+	content:"rhythm n white";
 }
 .blok:hover.movie6 .title:after{display:block;}
 .blok.movie6{display:inline-block;}
@@ -82,13 +82,13 @@
 
 
 .movie7{
-	background-image:url("koritni.jpg");
+	background-image:url("tahiti.jpg");
 }
 .movie7 .customer:after{
-	content:"koritni";
+	content:"albert de paname";
 }
 .movie7 .title:before{
-	content:"heaven again";
+	content:"tahiti";
 }
 .blok:hover.movie7 .title:after{display:block;}
 .blok.movie7{display:inline-block;}
@@ -96,13 +96,27 @@
 
 
 .movie8{
-	background-image:url("la pose.jpg");
+	background-image:url("koritni.jpg");
 }
 .movie8 .customer:after{
-	content:"elliott 1er";
+	content:"koritni";
 }
 .movie8 .title:before{
-	content:"la pose";
+	content:"heaven again";
 }
 .blok:hover.movie8 .title:after{display:block;}
 .blok.movie8{display:inline-block;}
+
+
+
+.movie9{
+	background-image:url("la pose.jpg");
+}
+.movie9 .customer:after{
+	content:"elliott 1er";
+}
+.movie9 .title:before{
+	content:"la pose";
+}
+.blok:hover.movie9 .title:after{display:block;}
+.blok.movie9{display:inline-block;}
