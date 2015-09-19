@@ -1,104 +1,118 @@
 .movie1{ 
-	background-image:url("groom peplum.jpg");
+	background-image:url("dreamup.jpg");
 }
 .movie1 .customer:after{
-	content:"Louis Vuitton";
+	content:"Bnp Paribas";
 }
 .movie1 .title:before{
-	content:"The little groom is fighting in the arena";
+	content:"Dream Up";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
 
 
 
-.movie2{
-	background-image:url("groom western.jpg");
+.movie2{ 
+	background-image:url("groom peplum.jpg");
 }
 .movie2 .customer:after{
 	content:"Louis Vuitton";
 }
 .movie2 .title:before{
-	content:"the little groom in duel in the dust";
+	content:"The little groom is fighting in the arena";
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}
 
 
+
 .movie3{
-	background-image:url("groom roma.jpg");
+	background-image:url("groom western.jpg");
 }
 .movie3 .customer:after{
-	content:"louis vuitton";
+	content:"Louis Vuitton";
 }
 .movie3 .title:before{
-	content:"the little groom is falling in love in roma";
+	content:"the little groom in duel in the dust";
 }
 .blok:hover.movie3 .title:after{display:block;}
 .blok.movie3{display:inline-block;}
 
 
 .movie4{
-	background-image:url("confrerie.jpg");
+	background-image:url("groom roma.jpg");
 }
 .movie4 .customer:after{
-	content:"cinema";
+	content:"louis vuitton";
 }
 .movie4 .title:before{
-	content:"la confrérie des larmes";
+	content:"the little groom is falling in love in roma";
 }
 .blok:hover.movie4 .title:after{display:block;}
 .blok.movie4{display:inline-block;}
 
 
 .movie5{
-	background-image:url("dyson.jpg");
+	background-image:url("confrerie.jpg");
 }
 .movie5 .customer:after{
-	content:"dyson";
+	content:"cinema";
 }
 .movie5 .title:before{
-	content:"l'affaire airblade";
+	content:"la confrérie des larmes";
 }
 .blok:hover.movie5 .title:after{display:block;}
 .blok.movie5{display:inline-block;}
 
 
-
 .movie6{
-	background-image:url("smart start.jpg");
+	background-image:url("dyson.jpg");
 }
 .movie6 .customer:after{
-	content:"bnp paribas";
+	content:"dyson";
 }
 .movie6 .title:before{
-	content:"smart start";
+	content:"l'affaire airblade";
 }
 .blok:hover.movie6 .title:after{display:block;}
 .blok.movie6{display:inline-block;}
 
 
+
 .movie7{
-	background-image:url("groom swinging.jpg");
+	background-image:url("smart start.jpg");
 }
 .movie7 .customer:after{
-	content:"louis vuitton";
+	content:"bnp paribas";
 }
 .movie7 .title:before{
-	content:"the little groom is swinging in the clouds";
+	content:"smart start";
 }
 .blok:hover.movie7 .title:after{display:block;}
 .blok.movie7{display:inline-block;}
 
 
 .movie8{
-	background-image:url("groom marina.jpg");
+	background-image:url("groom swinging.jpg");
 }
 .movie8 .customer:after{
 	content:"louis vuitton";
 }
 .movie8 .title:before{
-	content:"the little groom in marina bay";
+	content:"the little groom is swinging in the clouds";
 }
 .blok:hover.movie8 .title:after{display:block;}
 .blok.movie8{display:inline-block;}
+
+
+.movie9{
+	background-image:url("groom marina.jpg");
+}
+.movie9 .customer:after{
+	content:"louis vuitton";
+}
+.movie9 .title:before{
+	content:"the little groom in marina bay";
+}
+.blok:hover.movie9 .title:after{display:block;}
+.blok.movie9{display:inline-block;}
