@@ -15,7 +15,7 @@
 	background-image:url("making of.jpg");
 }
 .movie2 .customer:after{
-	content:"ror";
+	content:"making of";
 }
 .movie2 .title:before{
 	content:"making of";
@@ -93,58 +93,3 @@
 .blok:hover.movie7 .title:after{display:block;}
 .blok.movie7{display:inline-block;}
 
-
-
-.movie8{
-	background-image:url("rythm n white.jpg");
-}
-.movie8 .customer:after{
-	content:"little big boy";
-}
-.movie8 .title:before{
-	content:"rhythm n white";
-}
-.blok:hover.movie8 .title:after{display:block;}
-.blok.movie8{display:inline-block;}
-
-
-
-.movie9{
-	background-image:url("tahiti.jpg");
-}
-.movie9 .customer:after{
-	content:"albert de paname";
-}
-.movie9 .title:before{
-	content:"tahiti";
-}
-.blok:hover.movie9 .title:after{display:block;}
-.blok.movie9{display:inline-block;}
-
-
-
-.movie10{
-	background-image:url("koritni.jpg");
-}
-.movie10 .customer:after{
-	content:"koritni";
-}
-.movie10 .title:before{
-	content:"heaven again";
-}
-.blok:hover.movie10 .title:after{display:block;}
-.blok.movie10{display:inline-block;}
-
-
-
-.movie11{
-	background-image:url("la pose.jpg");
-}
-.movie11 .customer:after{
-	content:"elliott 1er";
-}
-.movie11 .title:before{
-	content:"la pose";
-}
-.blok:hover.movie11 .title:after{display:block;}
-.blok.movie11{display:inline-block;}
