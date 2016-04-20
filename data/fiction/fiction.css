@@ -1,54 +1,30 @@
-.movie1{ 
-	background-image:url("denis.jpg");
+.movie1{
+	background-image:url("bruel.jpg");
 }
 .movie1 .customer:after{
-	content:"regis raffin";
+	content:"bruel/marin";
 }
 .movie1 .title:before{
-	content:"denis le zombie";
+	content:"le concert";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
 
 
-
-.movie2{
-	background-image:url("elliot bio.jpg");
+.movie2{ 
+	background-image:url("denis.jpg");
 }
 .movie2 .customer:after{
-	content:"elliott 1er";
+	content:"regis raffin";
 }
 .movie2 .title:before{
-	content:"les grands de ce monde";
+	content:"denis le zombie";
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}
 
 
 
-.movie3{
-	background-image:url("bruel.jpg");
-}
-.movie3 .customer:after{
-	content:"bruel/marin";
-}
-.movie3 .title:before{
-	content:"le concert";
-}
-.blok:hover.movie3 .title:after{display:block;}
-.blok.movie3{display:inline-block;}
 
 
-
-.movie4{
-	background-image:url("couriers.jpg");
-}
-.movie4 .customer:after{
-	content:"noemie delattre";
-}
-.movie4 .title:before{
-	content:"les courriers du quoeur";
-}
-.blok:hover.movie4 .title:after{display:block;}
-.blok.movie4{display:inline-block;}
 

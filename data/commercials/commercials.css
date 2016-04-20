@@ -41,28 +41,14 @@
 
 
 .movie4{
-	background-image:url("originals.jpg");
+	background-image:url("legumes.jpg");
 }
 .movie4 .customer:after{
-	content:"lee cooper";
+	content:"france 4";
 }
 .movie4 .title:before{
-	content:"originals";
+	content:"5 fruits et légumes par jours";
 }
 .blok:hover.movie4 .title:after{display:block;}
 .blok.movie4{display:inline-block;}
-
-
-
-.movie5{
-	background-image:url("legumes.jpg");
-}
-.movie5 .customer:after{
-	content:"france 4";
-}
-.movie5 .title:before{
-	content:"5 fruits et légumes par jours";
-}
-.blok:hover.movie5 .title:after{display:block;}
-.blok.movie5{display:inline-block;}
 
