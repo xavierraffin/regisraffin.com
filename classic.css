@@ -89,11 +89,11 @@ section{
 }
 .title:before, .title:after{
 	color:black;
-	text-shadow: 0.5px 0.5px 0px #00c8ff,-0.5px -0.5px 0px #c600e7;
+	/*text-shadow: 0.5px 0.5px 0px #00c8ff,-0.5px -0.5px 0px #c600e7;*/
 }
 h1{
 	color:black;
-	text-shadow: 1px 1px 0px #00c8ff,-1px -1px 0px #c600e7;
+	/*text-shadow: 1px 1px 0px #00c8ff,-1px -1px 0px #c600e7;*/
 }
 h1 {
 	display: inline;
@@ -104,7 +104,7 @@ h1:after {
 	content: url('logo.png');
 	margin-left: 13px;
 	position:relative;
-	top:1px;
+	top:2px;
 }
 nav {
 	color:#6e6e6e;
@@ -128,12 +128,12 @@ nav a {
 }
 nav a.active{
 	color:white;
-	background:#050d70;
-	-moz-box-shadow: 1px 1px 0px 0px #00c8ff,-1px -1px 0px 0px #c600e7;
+	background:#000000;
+	/*-moz-box-shadow: 1px 1px 0px 0px #00c8ff,-1px -1px 0px 0px #c600e7;
 	-webkit-box-shadow: 1px 1px 0px 0px #00c8ff,-1px -1px 0px 0px #c600e7;
 	-o-box-shadow: 1px 1px 0px 0px #00c8ff,-1px -1px 0px 0px #c600e7;
 	box-shadow: 1px 1px 0px 0px #00c8ff,-1px -1px 0px 0px #c600e7;
-	filter:progid:DXImageTransform.Microsoft.Shadow(color=#00c8ff, Direction=134, Strength=0);
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#00c8ff, Direction=134, Strength=0);*/
 }
 .blok {
     background: repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
