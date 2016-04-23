@@ -15,6 +15,10 @@ function loadVideo(movie)
   $(legend).css("display","inline-block");
   
   window.history.pushState('page2', 'Title', '?video=' + movie);
+  for (i = 0; i < 20; i++) {
+    $("#movie"+i).show();
+  }
+  $("#"+movie).hide();
 }
 
 
