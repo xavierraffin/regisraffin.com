@@ -13,8 +13,15 @@ body {
 }
 #contact{
 	position: absolute;
-	top:130px;
-	left:300px;
+	top:113px;
+	left:413px;
+	text-transform:lowercase;
+}
+#contact::before {
+    content: url('logo.png');
+    margin-right: 13px;
+    position: relative;
+    top: 8px;
 }
 .video{
 	display:none;
