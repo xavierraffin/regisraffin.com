@@ -1,25 +1,29 @@
-.movie1{ 
-	background-image:url("bruel2.jpg");
+
+
+
+
+.movie1{
+	background-image:url("lee cooper.jpg");
 }
 .movie1 .customer:after{
-	content:"bruel/marin";
+	content:"lee cooper";
 }
 .movie1 .title:before{
-	content:"le concert";
+	content:"the fine english denim company";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
 
 
 
-.movie2{
-	background-image:url("lee cooper.jpg");
+.movie2{ 
+	background-image:url("bruel2.jpg");
 }
 .movie2 .customer:after{
-	content:"lee cooper";
+	content:"bruel/marin";
 }
 .movie2 .title:before{
-	content:"the fine english denim company";
+	content:"le concert";
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}

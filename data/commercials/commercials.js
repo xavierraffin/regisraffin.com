@@ -1,13 +1,13 @@
 var videos = {
         "movie1": {
-            "head": "bruel/marin",
-            "desc": "le concert<br>Director: Régis Raffin<br>Production: charlotte marin<br>2010",
-            "vimeocode": 18087560
-        },
-        "movie2": {
             "head": "lee cooper",
             "desc": "the fine english denim company<br>Director: Régis Raffin<br>Production: lee cooper<br>2009",
             "vimeocode": 4689031
+        },
+        "movie2": {
+            "head": "bruel/marin",
+            "desc": "le concert<br>Director: Régis Raffin<br>Production: charlotte marin<br>2010",
+            "vimeocode": 18087560
         },
         "movie3": {
             "head": "greenpeace",
