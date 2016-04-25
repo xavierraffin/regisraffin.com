@@ -23,5 +23,10 @@ var videos = {
             "head": "louis vuitton",
             "desc": "the little groom is<br>swinging in the clouds<br>Director: Régis Raffin<br>Production: Maneki Lab<br>2011",
             "vimeocode": 82103920
+        },
+        "movie6": {
+            "head": "louis vuitton",
+            "desc": "red<br>journey<br>Director: Régis Raffin<br>Production: Maneki Lab<br>2011",
+            "vimeocode": 164057170
         }
     };

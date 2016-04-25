@@ -64,3 +64,17 @@
 }
 .blok:hover.movie5 .title:after{display:block;}
 .blok.movie5{display:inline-block;}
+
+
+
+.movie6{
+	background-image:url("redjourney.jpg");
+}
+.movie6 .customer:after{
+	content:"louis vuitton";
+}
+.movie6 .title:before{
+	content:"red journey";
+}
+.blok:hover.movie6 .title:after{display:block;}
+.blok.movie6{display:inline-block;}
