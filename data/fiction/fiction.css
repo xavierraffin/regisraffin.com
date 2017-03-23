@@ -12,6 +12,7 @@
 .blok.movie1{display:inline-block;}
 
 
+
 .movie2{ 
 	background-image:url("depardieu.jpg");
 }
@@ -23,6 +24,7 @@
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}
+
 
 
 .movie3{ 
@@ -38,6 +40,7 @@
 .blok.movie3"{display:inline-block;}
 
 
+
 .movie4{ 
 	background-image:url("highlander.jpg");
 }
@@ -49,6 +52,7 @@
 }
 .blok:hover.movie4 .title:after{display:block;}
 .blok.movie4"{display:inline-block;}
+
 
 
 .movie5{ 
@@ -76,6 +80,7 @@
 }
 .blok:hover.movie6 .title:after{display:block;}
 .blok.movie6{display:inline-block;}
+
 
 
 .movie7{ 
