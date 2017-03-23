@@ -1,27 +1,94 @@
+
 .movie1{
-	background-image:url("bruel.jpg");
+	background-image:url("kardashian.jpg");
 }
 .movie1 .customer:after{
-	content:"bruel/marin";
+	content:"archifau";
 }
 .movie1 .title:before{
-	content:"le concert";
+	content:"kim kardashian";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
 
 
 .movie2{ 
-	background-image:url("denis.jpg");
+	background-image:url("depardieu.jpg");
 }
 .movie2 .customer:after{
-	content:"regis raffin";
+	content:"archifau";
 }
 .movie2 .title:before{
-	content:"denis le zombie";
+	content:"julie depardieu";
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}
+
+
+.movie3{ 
+	background-image:url("hug.jpg");
+}
+.movie3 .customer:after{
+	content:"archifau";
+}
+.movie3 .title:before{
+	content:"hug day";
+}
+.blok:hover.movie3 .title:after{display:block;}
+.blok.movie3"{display:inline-block;}
+
+
+.movie4{ 
+	background-image:url("highlander.jpg");
+}
+.movie4 .customer:after{
+	content:"archifau";
+}
+.movie4 .title:before{
+	content:"highlander";
+}
+.blok:hover.movie4 .title:after{display:block;}
+.blok.movie4"{display:inline-block;}
+
+
+.movie5{ 
+	background-image:url("noel.jpg");
+}
+.movie5 .customer:after{
+	content:"archifau";
+}
+.movie5 .title:before{
+	content:"christmas";
+}
+.blok:hover.movie5 .title:after{display:block;}
+.blok.movie5"{display:inline-block;}
+
+
+
+.movie6{
+	background-image:url("bruel.jpg");
+}
+.movie6 .customer:after{
+	content:"bruel/marin";
+}
+.movie6 .title:before{
+	content:"le concert";
+}
+.blok:hover.movie6 .title:after{display:block;}
+.blok.movie6{display:inline-block;}
+
+
+.movie7{ 
+	background-image:url("denis.jpg");
+}
+.movie7 .customer:after{
+	content:"regis raffin";
+}
+.movie7 .title:before{
+	content:"denis le zombie";
+}
+.blok:hover.movie7 .title:after{display:block;}
+.blok.movie7{display:inline-block;}
 
 
 
