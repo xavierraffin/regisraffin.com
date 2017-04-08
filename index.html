@@ -37,7 +37,7 @@
 	<script>
 	$(function() {
     
-    var $allVideos = $("iframe"),
+    var $allVideos = $("iframe[src^='//player.vimeo.com']"),
     $fluidEl = $(".video");
 	    	
 	$allVideos.each(function() {
@@ -73,8 +73,9 @@
   <div class="menuicon"></div>
   <nav>
   <ul>
+  <li><a class="active">Demo reel</a></li>
   <li><a href="./animation">Animation</a></li>
-  <li><a class="active">Music videos</a></li>
+  <li><a href="./music-videos">Music videos</a></li>
   <li><a href="./fiction">Fiction</a></li>
   <li><a href="./commercials">Commercials</a></li>
   <li><a href="./about">About</a></li>
@@ -86,22 +87,9 @@
   <div class="main">
   <p><span lang="fr">Réalisateur de fictions, clips, marketing viral et publicités TV /</span> fiction, music videos, viral & TV commercial director</p>
   <section>
-    <div class="video">
-	  <iframe id="vimeo" src="" width="1084" height="609" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	</div><!--
-   --><div class="blok legend"><img class="logowhite" src="logo-white.png" /><div class="customer"></div><div class="desc"></div></div><!--
-   --><div id="movie1" class="blok mov movie1"><div class="customer"></div><div class="title"></div></div><!--
-   --><div id="movie2" class="blok mov movie2"><div class="customer"></div><div class="title"></div></div><!--
-   --><div id="movie3" class="blok mov movie3"><div class="customer"></div><div class="title"></div></div><!--
-   --><div id="movie4" class="blok mov movie4"><div class="customer"></div><div class="title"></div></div><!--
-   --><div id="movie5" class="blok mov movie5"><div class="customer"></div><div class="title"></div></div><!--
-   --><div id="movie6" class="blok mov movie6"><div class="customer"></div><div class="title"></div></div><!--
-   --><div id="movie7" class="blok mov movie7"><div class="customer"></div><div class="title"></div></div><!--
-   --><div id="movie8" class="blok mov movie8"><div class="customer"></div><div class="title"></div></div><!-- 
-   --><div id="movie9" class="blok mov movie9"><div class="customer"></div><div class="title"></div></div><!-- 
-   --><div id="movie10" class="blok mov movie10"><div class="customer"></div><div class="title"></div></div><!-- 
-   --><div id="movie11" class="blok mov movie11"><div class="customer"></div><div class="title"></div></div><!-- 
-   --><div id="movie12" class="blok mov movie12"><div class="customer"></div><div class="title"></div></div> 
+    <div class="video visible">
+-	  <iframe src="//player.vimeo.com/video/159326390" width="1084" height="609" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+-	</div>
    </section>
   </div>
   </div>
