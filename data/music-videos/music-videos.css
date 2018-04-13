@@ -1,38 +1,38 @@
 .movie1{ 
-	background-image:url("veggies can kill.jpg");
+	background-image:url("mesmerizing.jpg");
 }
 .movie1 .customer:after{
-	content:"ror";
+	content:"pershanoush";
 }
 .movie1 .title:before{
-	content:"veggies can kill";
+	content:"mesmerizing";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
 
 
+
 .movie2{ 
-	background-image:url("making of.jpg");
+	background-image:url("veggies can kill.jpg");
 }
 .movie2 .customer:after{
-	content:"making of";
+	content:"ror";
 }
 .movie2 .title:before{
-	content:"making of";
+	content:"veggies can kill";
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}
 
 
-
 .movie3{ 
-	background-image:url("hipsters must die.jpg");
+	background-image:url("making of.jpg");
 }
 .movie3 .customer:after{
-	content:"ror";
+	content:"making of";
 }
 .movie3 .title:before{
-	content:"hipsters must die";
+	content:"making of";
 }
 .blok:hover.movie3 .title:after{display:block;}
 .blok.movie3{display:inline-block;}
@@ -40,55 +40,55 @@
 
 
 .movie4{ 
-	background-image:url("chirac.jpg");
+	background-image:url("hipsters must die.jpg");
 }
 .movie4 .customer:after{
-	content:"archifau";
+	content:"ror";
 }
 .movie4 .title:before{
-	content:"chirac";
+	content:"hipsters must die";
 }
 .blok:hover.movie4 .title:after{display:block;}
 .blok.movie4{display:inline-block;}
 
 
 
-.movie5{
-	background-image:url("fillon.jpg");
+.movie5{ 
+	background-image:url("chirac.jpg");
 }
 .movie5 .customer:after{
 	content:"archifau";
 }
 .movie5 .title:before{
-	content:"fillon";
+	content:"chirac";
 }
 .blok:hover.movie5 .title:after{display:block;}
 .blok.movie5{display:inline-block;}
 
 
 
-.movie6{ 
-	background-image:url("ferdinand.jpg");
+.movie6{
+	background-image:url("fillon.jpg");
 }
 .movie6 .customer:after{
-	content:"eric mcfadden";
+	content:"archifau";
 }
 .movie6 .title:before{
-	content:"where is ferdinand ?";
+	content:"fillon";
 }
 .blok:hover.movie6 .title:after{display:block;}
 .blok.movie6{display:inline-block;}
 
 
 
-.movie7{
-	background-image:url("marner brown.jpg");
+.movie7{ 
+	background-image:url("ferdinand.jpg");
 }
 .movie7 .customer:after{
-	content:"marner brown";
+	content:"eric mcfadden";
 }
 .movie7 .title:before{
-	content:"sun don't shine";
+	content:"where is ferdinand ?";
 }
 .blok:hover.movie7 .title:after{display:block;}
 .blok.movie7{display:inline-block;}
@@ -96,27 +96,41 @@
 
 
 .movie8{
-	background-image:url("marin.jpg");
+	background-image:url("marner brown.jpg");
 }
 .movie8 .customer:after{
-	content:"charlotte marin";
+	content:"marner brown";
 }
 .movie8 .title:before{
-	content:"le plus beau jour de ma vie";
+	content:"sun don't shine";
 }
 .blok:hover.movie8 .title:after{display:block;}
 .blok.movie8{display:inline-block;}
 
 
+
 .movie9{
-	background-image:url("kish mauve.jpg");
+	background-image:url("marin.jpg");
 }
 .movie9 .customer:after{
-	content:"kish mauve";
+	content:"charlotte marin";
 }
 .movie9 .title:before{
-	content:"matthew";
+	content:"le plus beau jour de ma vie";
 }
 .blok:hover.movie9 .title:after{display:block;}
 .blok.movie9{display:inline-block;}
+
+
+.movie10{
+	background-image:url("kish mauve.jpg");
+}
+.movie10 .customer:after{
+	content:"kish mauve";
+}
+.movie10 .title:before{
+	content:"matthew";
+}
+.blok:hover.movie10 .title:after{display:block;}
+.blok.movie10{display:inline-block;}
 
