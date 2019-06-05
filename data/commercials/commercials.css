@@ -2,10 +2,10 @@
 	background-image:url("spiderman.jpg");
 }
 .movie1 .customer:after{
-	content:"spiderman / eurorepar";
+	content:"spiderman";
 }
 .movie1 .title:before{
-	content:"spiderman";
+	content:"spiderman / eurorepar";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
