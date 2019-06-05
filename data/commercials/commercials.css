@@ -1,53 +1,50 @@
-
 .movie1{
-	background-image:url("innocent.jpg");
+	background-image:url("spiderman.jpg");
 }
 .movie1 .customer:after{
-	content:"innocent";
+	content:"spiderman";
 }
 .movie1 .title:before{
-	content:"innocent";
+	content:"spiderman";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
 
-
 .movie2{
-	background-image:url("lee cooper.jpg");
+	background-image:url("innocent.jpg");
 }
 .movie2 .customer:after{
-	content:"lee cooper";
+	content:"innocent";
 }
 .movie2 .title:before{
-	content:"the fine english denim company";
+	content:"innocent";
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}
 
 
-
-.movie3{ 
-	background-image:url("bruel2.jpg");
+.movie3{
+	background-image:url("lee cooper.jpg");
 }
 .movie3 .customer:after{
-	content:"bruel/marin";
+	content:"lee cooper";
 }
 .movie3 .title:before{
-	content:"le concert";
+	content:"the fine english denim company";
 }
 .blok:hover.movie3 .title:after{display:block;}
 .blok.movie3{display:inline-block;}
 
 
 
-.movie4{
-	background-image:url("greenpeace.jpg");
+.movie4{ 
+	background-image:url("bruel2.jpg");
 }
 .movie4 .customer:after{
-	content:"greenpeace";
+	content:"bruel/marin";
 }
 .movie4 .title:before{
-	content:"ultimatum climatique";
+	content:"le concert";
 }
 .blok:hover.movie4 .title:after{display:block;}
 .blok.movie4{display:inline-block;}
@@ -55,14 +52,28 @@
 
 
 .movie5{
-	background-image:url("legumes.jpg");
+	background-image:url("greenpeace.jpg");
 }
 .movie5 .customer:after{
-	content:"france 4";
+	content:"greenpeace";
 }
 .movie5 .title:before{
-	content:"5 fruits et légumes par jours";
+	content:"ultimatum climatique";
 }
 .blok:hover.movie5 .title:after{display:block;}
 .blok.movie5{display:inline-block;}
+
+
+
+.movie6{
+	background-image:url("legumes.jpg");
+}
+.movie6 .customer:after{
+	content:"france 4";
+}
+.movie6 .title:before{
+	content:"5 fruits et légumes par jours";
+}
+.blok:hover.movie6 .title:after{display:block;}
+.blok.movie6{display:inline-block;}
 
