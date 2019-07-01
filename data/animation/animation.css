@@ -1,11 +1,11 @@
 .movie1{ 
-	background-image:url("dreamup.jpg");
+	background-image:url("clandestino.jpg");
 }
 .movie1 .customer:after{
-	content:"Bnp Paribas";
+	content:"manu chao";
 }
 .movie1 .title:before{
-	content:"Dream Up";
+	content:"Clandestino";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
@@ -13,54 +13,54 @@
 
 
 .movie2{ 
-	background-image:url("groom peplum.jpg");
+	background-image:url("dreamup.jpg");
 }
 .movie2 .customer:after{
-	content:"Louis Vuitton";
+	content:"Bnp Paribas";
 }
 .movie2 .title:before{
-	content:"The little groom is fighting in the arena";
+	content:"Dream Up";
 }
 .blok:hover.movie2 .title:after{display:block;}
 .blok.movie2{display:inline-block;}
 
 
 
-.movie3{
-	background-image:url("groom western.jpg");
+.movie3{ 
+	background-image:url("groom peplum.jpg");
 }
 .movie3 .customer:after{
 	content:"Louis Vuitton";
 }
 .movie3 .title:before{
-	content:"the little groom in duel in the dust";
+	content:"The little groom is fighting in the arena";
 }
 .blok:hover.movie3 .title:after{display:block;}
 .blok.movie3{display:inline-block;}
 
 
+
 .movie4{
-	background-image:url("confrerie.jpg");
+	background-image:url("groom western.jpg");
 }
 .movie4 .customer:after{
-	content:"cinema";
+	content:"Louis Vuitton";
 }
 .movie4 .title:before{
-	content:"la confrérie des larmes";
+	content:"the little groom in duel in the dust";
 }
 .blok:hover.movie4 .title:after{display:block;}
 .blok.movie4{display:inline-block;}
 
 
-
 .movie5{
-	background-image:url("groom swinging.jpg");
+	background-image:url("confrerie.jpg");
 }
 .movie5 .customer:after{
-	content:"louis vuitton";
+	content:"cinema";
 }
 .movie5 .title:before{
-	content:"the little groom is swinging in the clouds";
+	content:"la confrérie des larmes";
 }
 .blok:hover.movie5 .title:after{display:block;}
 .blok.movie5{display:inline-block;}
@@ -68,13 +68,27 @@
 
 
 .movie6{
-	background-image:url("redjourney.jpg");
+	background-image:url("groom swinging.jpg");
 }
 .movie6 .customer:after{
 	content:"louis vuitton";
 }
 .movie6 .title:before{
-	content:"red journey";
+	content:"the little groom is swinging in the clouds";
 }
 .blok:hover.movie6 .title:after{display:block;}
 .blok.movie6{display:inline-block;}
+
+
+
+.movie7{
+	background-image:url("redjourney.jpg");
+}
+.movie7 .customer:after{
+	content:"louis vuitton";
+}
+.movie7 .title:before{
+	content:"red journey";
+}
+.blok:hover.movie7 .title:after{display:block;}
+.blok.movie7{display:inline-block;}
