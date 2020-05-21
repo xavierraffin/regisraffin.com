@@ -5,7 +5,7 @@
 	content:"manu cho";
 }
 .movie1 .title:before{
-	content:"Clandestino";
+	content:"Clandestin";
 }
 .blok:hover.movie1 .title:after{display:block;}
 .blok.movie1{display:inline-block;}
