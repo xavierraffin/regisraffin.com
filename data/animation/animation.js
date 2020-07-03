@@ -25,30 +25,18 @@ var videos = {
             "vimeocode": 82103917
         },
         "movie6": {
-            "head": "Crazy Fingers",
-            "desc": "crazy fingers<br>the race<br>Director: Régis Raffin<br>Production: Maneki Lab<br>2013",
-            "vimeocode": 410203984/36c2d8c81c
-        },
-        "movie7": {
-            "head": "Crazy Fingers",
-            "desc": "crazy fingers<br>the adventurer<br>Director: Régis Raffin<br>Production: Maneki Lab<br>2013",
-            "vimeocode": 410203289/c43f55c7f4
-        },
-        "movie8": {
             "head": "cinema",
             "desc": "main title<br>la confrere des larmes<br>Director: Régis raffin<br>Production: Maneki Lab / Full house<br>2013",
             "vimeocode": 82281952
         },
-        "movie9": {
+        "movie7": {
             "head": "louis vuitton",
             "desc": "the little groom is<br>swinging in the clouds<br>Director: Régis Raffin<br>Production: Maneki Lab<br>2011",
             "vimeocode": 82103920
         },
-        "movie10": {
+        "movie8": {
             "head": "louis vuitton",
             "desc": "red<br>journey<br>Director: Régis Raffin<br>Production: Maneki Lab<br>2011",
             "vimeocode": 164057170
         }
     };
-
-
