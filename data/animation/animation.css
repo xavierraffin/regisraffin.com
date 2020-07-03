@@ -69,7 +69,7 @@
 	content:"Crazy Fingers";
 }
 .movie6 .title:before{
-	content:"crazy fingers the race";
+	content:"crazy fingers / the race";
 }
 .blok:hover.movie6 .title:after{display:block;}
 .blok.movie6{display:inline-block;}
@@ -82,7 +82,7 @@
 	content:"Crazy Fingers";
 }
 .movie7 .title:before{
-	content:"crazy fingers the adventurer";
+	content:"crazy fingers / the adventurer";
 }
 .blok:hover.movie7 .title:after{display:block;}
 .blok.movie7{display:inline-block;}
