@@ -23,7 +23,6 @@
 .blok.movie2{display:inline-block;}
 
 
-
 .movie3{ 
 	background-image:url("dreamup.jpg");
 }
@@ -37,7 +36,6 @@
 .blok.movie3{display:inline-block;}
 
 
-
 .movie4{ 
 	background-image:url("groom peplum.jpg");
 }
@@ -49,7 +47,6 @@
 }
 .blok:hover.movie4 .title:after{display:block;}
 .blok.movie4{display:inline-block;}
-
 
 
 .movie5{
@@ -91,8 +88,6 @@
 .blok.movie7{display:inline-block;}
 
 
-
-
 .movie8{
 	background-image:url("confrerie.jpg");
 }
@@ -106,7 +101,6 @@
 .blok.movie8{display:inline-block;}
 
 
-
 .movie9{
 	background-image:url("groom swinging.jpg");
 }
@@ -118,7 +112,6 @@
 }
 .blok:hover.movie9 .title:after{display:block;}
 .blok.movie9{display:inline-block;}
-
 
 
 .movie10{
