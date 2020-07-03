@@ -26,12 +26,12 @@ var videos = {
         },
         "movie6": {
             "head": "Crazy Fingers",
-            "desc": "crazy fingers<br>the race<br>Director: Régis Raffin<br>Production: Maneki Lab<br>2013",
+            "desc": "crazy fingers<br>the race<br>Director: Régis raffin<br>Production: Maneki Lab<br>2013",
             "vimeocode": 410203984/36c2d8c81c
         },
         "movie7": {
             "head": "Crazy Fingers",
-            "desc": "crazy fingers<br>the adventurer<br>Director: Régis Raffin<br>Production: Maneki Lab<br>2013",
+            "desc": "crazy fingers<br>the adventurer<br>Director: Régis raffin<br>Production: Maneki Lab<br>2013",
             "vimeocode": 410203289/c43f55c7f4
         },
         "movie8": {
@@ -50,5 +50,4 @@ var videos = {
             "vimeocode": 164057170
         }
     };
-
 
