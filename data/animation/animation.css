@@ -19,8 +19,8 @@
 .movie2 .title:before{
 	content:"come on 2021";
 }
-.blok:hover.movie3 .title:after{display:block;}
-.blok.movie3{display:inline-block;}
+.blok:hover.movie2 .title:after{display:block;}
+.blok.movie2{display:inline-block;}
 
 .movie3{ 
 	background-image:url("heroes.jpg");
